@@ -182,16 +182,7 @@ const TabbedNav = () => {
         </div>
       </motion.div>
 
-      {/* WhatsApp Floating Button */}
-      <a
-        href={`https://wa.me/${whatsappNumber}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-5 right-5 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition z-50"
-        aria-label="Contact us on WhatsApp"
-      >
-        <FaWhatsapp className="text-3xl" />
-      </a>
+      
     </section>
   );
 };

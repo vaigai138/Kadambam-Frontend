@@ -52,23 +52,8 @@ const OnlineShopping = () => {
             <div className="p-4">
                 <Carousel />
             </div>
-            {/* Floating WhatsApp & Call Buttons */}
-            <div className="fixed bottom-6 right-6 flex flex-col gap-4">
-                <a
-                    href="https://wa.me/your-number"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition"
-                >
-                    <FaWhatsapp size={28} />
-                </a>
-                <a
-                    href="tel:your-phone-number"
-                    className="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition"
-                >
-                    <FaPhoneAlt size={28} />
-                </a>
-            </div>
+            
+            
         </div>
 
     );
